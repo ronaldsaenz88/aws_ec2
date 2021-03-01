@@ -10,5 +10,5 @@ output "instance_private_ip" {
 
 output "tags" {
   description = "List of tags of instances"
-  value       = aws_instance.this.*.tags
+  value       = aws_instance.web.tags
 }
